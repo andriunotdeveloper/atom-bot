@@ -1,0 +1,153 @@
+- name: client
+  files:
+    - name: Raven
+      path: ../index.js
+    - name: Client
+      path: Client.js
+- name: commands
+  files:
+    - name: docs
+      path: docs/docs.js
+    - name: npm
+      path: docs/npm.js
+    - name: mdn
+      path: docs/mdn.js
+
+    - name: about
+      path: general/about.js
+    - name: blacklist
+      path: general/blacklist.js
+    - name: guide
+      path: general/about.js
+    - name: help
+      path: general/help.js
+    - name: invite
+      path: general/invite.js
+    - name: ping
+      path: general/ping.js
+    - name: prefix
+      path: general/prefix.js
+    - name: reset
+      path: general/reset.js
+    - name: settings
+      path: general/settings.js
+    - name: stats
+      path: general/stats.js
+    - name: uptime
+      path: general/uptime.js
+
+    - name: avatar
+      path: info/avatar.js
+    - name: channel
+      path: info/channel.js
+    - name: emoji
+      path: info/emoji.js
+    - name: role-info
+      path: info/roleinfo.js
+    - name: server
+      path: info/server.js
+    - name: user
+      path: info/userinfo.js
+
+    - name: ban
+      path: mod/ban.js
+    - name: kick
+      path: mod/kick.js
+    - name: mute
+      path: mod/mute.js
+    - name: duration
+      path: mod/duration.js
+    - name: softban
+      path: mod/softban.js
+    - name: cybernuke
+      path: mod/cybernuke.js
+    - name: unban
+      path: mod/unban.js
+    - name: warn
+      path: mod/warn.js
+    - name: restrict
+      path: mod/restrict.js
+    - name: emoji-restrict
+      path: mod/emoji.js
+    - name: embed-restrict
+      path: mod/embed.js
+    - name: reaction-restrict
+      path: mod/reaction.js
+    - name: case
+      path: mod/case.js
+    - name: reason
+      path: mod/reason.js
+    - name: history
+      path: mod/history.js
+    - name: reset-history
+      path: mod/resethistory.js
+
+
+- name: Listeners
+  files:
+    - name: commandBlocked
+      path: commandHandler/commandBlocked.js
+    - name: commandStarted
+      path: commandHandler/commandStarted.js
+    - name: cooldown
+      path: commandHandler/cooldown.js
+    - name: error
+      path: commandHandler/error.js
+    - name: messageInvalid
+      path: commandHandler/messageInvalid.js
+    - name: missingPermissions
+      path: commandHandler/missingPermissions.js
+
+- name: Inhibitors
+  files:
+    - name: blacklist
+      path: blacklist.js
+    - name: moderation
+      path: moderation.js
+    - name: sendMessages
+      path: sendMessages.js
+
+- name: struct
+  files:
+    - name: Database
+      path: Database.js
+    - name: MuteScheduler
+      path: MuteScheduler.js
+    - name: Queue
+      path: Queue.js
+    - name: SettingsProviders
+      path: SettingsProviders.js
+    - name: Starboard
+      path: Starboard.js
+
+- name: models
+  files:
+    - name: Case
+      path: Case.js
+    - name: Commands
+      path: Commands.js
+    - name: ReactionRoles
+      path: ReactionRoles.js
+    - name: Reputations
+      path: reputations.js
+    - name: Stars
+      path: stars.js
+    - name: Rolestate
+      path: Rolestate.js
+    - name: Settings
+      path: settings.js
+    - name: Tags
+      path: Tags.js
+    - name: UserLevel
+      path: UserLevel.js
+
+- name: util
+  files:
+    - name: Base
+      path: Base.js
+    - name: Extensions
+      path: Extensions.js
+    - name: Logger
+      path: Logger.js
+    - name: Winston
+      path: Winston.js
