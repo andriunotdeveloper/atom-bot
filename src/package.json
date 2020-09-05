@@ -1,0 +1,60 @@
+{
+  "name": "raven",
+  "version": "2.1.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "common-tags": "^1.8.0",
+    "diff": "^4.0.1",
+    "discord-akairo": "discord-akairo/discord-akairo",
+    "discord.js": "discordjs/discord.js",
+    "dotenv": "^8.0.0",
+    "http": "^0.0.0",
+    "ioredis": "^4.6.2",
+    "lavalink": "^2.4.1",
+    "lavaqueue": "^3.1.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "node-emoji": "^1.10.0",
+    "node-fetch": "^2.3.0",
+    "nodejs": "^0.0.0",
+    "os-utils": "^0.0.14",
+    "pg": "^7.8.2",
+    "prom-client": "^11.2.1",
+    "punycode": "^2.1.1",
+    "qs": "^6.6.0",
+    "raven": "^2.6.4",
+    "redis": "^2.8.0",
+    "rejects": "^0.6.2",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "sequelize": "^5.3.0",
+    "snekfetch": "^4.0.4",
+    "turndown": "^5.0.3",
+    "url": "^0.11.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-aqua": "^5.0.0"
+  },
+  "scripts": {
+    "test": "eslint ./",
+    "fix": "eslint --fix src/",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Suvajit#5580",
+  "license": "ISC",
+  "description": "A discord bot with fully functional music system, in-depth moderation commands, tag system, custom commands and  much more. Made in JavaScript and discord.js library &amp; discord-akairo framework.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almostsuvajit/ravenbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/almostsuvajit/ravenbot/issues"
+  },
+  "homepage": "https://github.com/almostsuvajit/ravenbot#readme"
+}
